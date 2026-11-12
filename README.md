@@ -11,12 +11,12 @@ PC Numberpad keyboard used to control the app
 "3" = Toggle between Running and Paused
 "*" = Sound Buzzer
 
-================================
 SFML Graphics library's in use
-================================
 
 Other notes... The RP Zero2W is a great SBC, but it is quite RAM limited, so rather than using BT to send audio. I chose to use a RP RICO and that way the delay between the Display and Buzzer was deterministic and could be acounted for.
 
-Note as descibed this was a rushed project, and certainly could be improved significantly. My hope one day it to make a very low cost shotclock.
+Note as descibed this was a rushed project, and certainly could be improved significantly. 
+
+= I hope to, make a very low cost shot clock one day.=
 
 
