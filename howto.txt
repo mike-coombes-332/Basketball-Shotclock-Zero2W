@@ -1,0 +1,16 @@
+ 
+ 
+g++ -c main.cpp
+g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system -lgpiod
+./sfml-app
+ 
+ -lsfml-audio 
+ 
+ cat /sys/class/thermal/thermal_zone0/temp
+ 
+ 
+ g++ -c main.cpp
+ g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+ ./sfml-app
+ 
+ 
