@@ -1,7 +1,11 @@
 # Basketball-Shotclock-Zero2W
+
+<img width="380" height="380" alt="ShotClock" src="https://github.com/user-attachments/assets/19f8eb1e-619c-498c-9316-e7dcda6b3856" />
+
 A basketball shot clock developed in 5 days, to allow a local league to play in school gyms. 
 
 Code running on an RP ZERO2W SBC with a RP PICO used as a PWM source for audio. (Zero2W GPIO6 used an a EnableBuzzer signal to Pico)
+The PICO will generate the audio using a PWM Timer, an external Low Pass filter is required to remove the artifacts prior to the audio jack.
 
 HDMI splitter used for Video out to 2 PC monitors (HDMI sent 50M across Ethernet)
 
